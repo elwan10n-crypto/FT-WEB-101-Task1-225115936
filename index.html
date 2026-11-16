@@ -1,0 +1,72 @@
+<!-- Mohamed Mohamed Belal Elwan - 225115933 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Belal | Personal Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mohamed Mohamed Belal Elwan</h1>
+        <nav class="top-bar">
+            <span class="brand-name">Mohamed Belal</span>
+            <ul class="menu">
+                <li><a href="#photo-box">Photo</a></li>
+                <li><a href="#my-cards">Hobbies</a></li>
+                <li><a href="#reach-me">Message</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="photo-box" class="avatar-wrapper">
+            <img src="images/me.jpg" alt="Portrait of Mohamed Mohamed Belal Elwan" class="user-photo">
+        </section>
+
+        <section id="my-cards" class="grid-cards">
+            <article class="info-card">
+                <h3>Computer Science</h3>
+                <p>First-year student at New Mansoura University learning programming and web basics.</p>
+            </article>
+            <article class="info-card">
+                <h3>Football & Sports</h3>
+                <p>Passionate about playing football with friends and following local and international leagues.</p>
+            </article>
+            <article class="info-card">
+                <h3>Movies & Reading</h3>
+                <p>Spending free time watching sci-fi movies and reading tech articles.</p>
+            </article>
+        </section>
+
+        <section id="reach-me" class="form-wrapper">
+            <div class="theme-control">
+                <button id="mode-btn" type="button">Switch Theme</button>
+            </div>
+
+            <form id="visitor-form">
+                <div class="input-row">
+                    <label for="user-name">Your Name</label>
+                    <input type="text" id="user-name" name="user-name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="input-row">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+            <p id="welcome-text"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mohamed Mohamed Belal Elwan. Built for FT-WEB-101.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
